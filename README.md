@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/cocoapods/v/Presentr.svg?style=flat)](http://cocoapods.org/pods/Presentr)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![Platform](https://img.shields.io/cocoapods/p/Presentr.svg?style=flat)](http://cocoapods.org/pods/Presentr)
 [![License](https://img.shields.io/cocoapods/l/Presentr.svg?style=flat)](http://cocoapods.org/pods/Presentr)
 [![codebeat badge](https://codebeat.co/badges/f89d5cdf-b0c3-441d-b4e1-d56dcea48544)](https://codebeat.co/projects/github-com-icalialabs-presentr)
@@ -73,9 +73,24 @@ This can be cumbersome, specially if you do it multiple times in your app. **Pre
 | >= 1.0.0 | Swift 3.0 | >= iOS 9.0 |
 | >= 1.3 | Swift 4.0 | >= iOS 9.0 |
 | >= 1.9 | Swift 4.0 & Swift 4.2 | >= iOS 9.0 |
+| Next | Swift 5.0 | >= iOS 12.0 |
 
 
 ## Installation
+
+### [Swift Package Manager](https://swift.org/package-manager/)
+
+Add Presentr using Xcode's Swift Package Manager support and the repository URL:
+
+```text
+https://github.com/IcaliaLabs/Presentr
+```
+
+Or add the package from the current branch:
+
+```swift
+.package(url: "https://github.com/IcaliaLabs/Presentr", branch: "master")
+```
 
 ### [Cocoapods](http://cocoapods.org)
 
@@ -96,7 +111,7 @@ carthage update --platform ios
 ```
 
 ### Manually
-1. Download and drop ```/Presentr``` folder in your project.  
+1. Download and drop ```/Sources/Presentr``` folder in your project.
 2. You're done!
 
 ## Getting started

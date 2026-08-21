@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 /// Basic Presentr type. Its job is to describe the 'type' of presentation. The type describes the size and position of the presented view controller.
 ///

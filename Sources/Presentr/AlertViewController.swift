@@ -143,7 +143,7 @@ public class AlertViewController: UIViewController, CornerRadiusSettable {
 		self.bodyFont = bodyFont
 		self.buttonFont = buttonFont
 
-		super.init(nibName: "AlertViewController", bundle: Bundle(for: type(of: self)))
+		super.init(nibName: "AlertViewController", bundle: PresentrResourceBundle.bundle)
 	}
 
 	required public init?(coder aDecoder: NSCoder) {
@@ -260,7 +260,7 @@ let loadFonts: () = {
 extension AlertViewController {
 
     static func loadFont(_ name: String) -> Bool {
-        let bundle = Bundle(for: self)
+        let bundle = PresentrResourceBundle.bundle
         guard let fontPath = bundle.path(forResource: name, ofType: "ttf"),
             let data = try? Data(contentsOf: URL(fileURLWithPath: fontPath)),
             let provider = CGDataProvider(data: data as CFData),

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 /// Describes the transition animation for presenting the view controller.
 ///
